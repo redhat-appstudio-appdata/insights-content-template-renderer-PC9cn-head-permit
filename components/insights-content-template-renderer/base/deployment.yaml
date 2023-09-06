@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: insights-content-template-renderer
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/gbenhaim-tenant/insights-content-template-renderer/insights-content-template-renderer@sha256:3b2d84415351fc970f5f6e81dedd747074199bf1cb9d0b4bf1f247ff1a4391df
+      - image: quay.io/redhat-user-workloads/gbenhaim-tenant/insights-content-template-renderer/insights-content-template-renderer@sha256:a4f8add75a8f5c1ae31321a91127faec8a1ea2f36bb6b6a1eecc50f728624b9f
         imagePullPolicy: Always
         name: container-image
         ports:
