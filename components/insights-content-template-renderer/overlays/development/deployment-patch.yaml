@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/gbenhaim-tenant/insights-content-template-renderer/insights-content-template-renderer@sha256:a4f8add75a8f5c1ae31321a91127faec8a1ea2f36bb6b6a1eecc50f728624b9f
+      - image: quay.io/redhat-user-workloads/gbenhaim-tenant/insights-content-template-renderer/insights-content-template-renderer@sha256:891c42b66291eb9b167a430bb869da7282b1346bd6563c2dc91db35bfe42a9a3
         name: container-image
         resources: {}
 status: {}
